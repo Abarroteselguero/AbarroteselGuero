@@ -1,0 +1,192 @@
+body{
+    background-color:#FFF;
+	color:#000000;
+	font-family:"lucida console", "courier new" ,monospace;
+	font-size: 40px;
+	}
+P{
+		text-align:justify;
+		font-size:20px;
+	}
+hr{
+	    border:3px solid #E74C3C;
+		border-radius: 5px;
+		width:80%;
+}
+table,tr,td{
+     border: 1px solid #239B56;
+     border-spacing:0px;
+     background-color: #239b56;
+     text-align:center;
+     FONT-SIZE:20px
+}
+ul{
+	 list-style-type:circle;
+	 list-style-position:inside;
+}
+ol{
+	 list-style-type:circle;
+	 list-style-position:inside;
+}
+@font-face{
+	font-family: mifuente;
+	src: url(../fonts/BASKVILL.TTF);
+}
+@font-face{
+	font-family: mifuente2;
+	src: url(../fonts/BERNHC.TTF);
+}
+.pie{
+     text-align:center;
+     font-size:15px;
+	 font-weight:bold;
+}
+.encabezado{
+	font-family: mifuente2;
+     text-align:center;
+     font-size:40px;
+     font-weight:bold;
+}	 
+	 /*clase de imajenes de las marquesinas*/
+.img-marquee{
+	 height:400px;
+	 width:600px;
+	 border-radius:10%;
+	 }
+	.img-control{
+	 height:50px;
+	 width:50px;
+	 border-radius:10%;
+	 }
+	 .img-producto{
+	height:100px;
+	width:200px;
+	border-radius:10%;
+	 } 
+	 div#top{
+		 padding:30PX;
+		 width:100%;
+		 height:100%;
+	 background-image:linear-gradient(#1E8449,#FDFEFE );
+	 }
+	 div#piediv{
+		 font-family: mifuente;
+		 padding:30px;
+		 width:100%;
+		 height:100px;
+		 background-image:linear-gradient(#1E8449,#FDFEFE);
+	 }
+	 div#principal{
+		  padding:30px;
+		 width:100%;
+		 height:100%;
+		 background-color: #FFF;
+	 }
+	 .caja{
+		 height:300px;
+		 width:250;
+		 background:#FDFEFE;
+		 border:1px solid #FDFEFE;
+		 margin: 5px;
+		 color:black;
+		 text-align:center;
+		 display:inline-block;
+	 }
+	 .caja:hover{
+		 box-shadow: 0 0 10px red;
+		 TRANSFORM:scale(1.3);
+	 }
+	 .caja-text{
+		 font-family: mifuente;
+		 padding-top:5px;
+		 padding-bottom:5;
+		 font-size:20px;
+		 color:blue;
+		 font-weight:bold;
+	 }
+	 .text-adicional{
+		 PADDING-TOP:5px;
+		 font-size:15px;
+	 }
+.carrousel{
+    width: 600px;
+    margin:auto;
+    /*Hace que el padding y el border pasen a formar
+    parte del calculo de la caja y no de la suma */
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    /*Hace que el navegador oculte
+    todos los contenidos que salen del div*/
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    /*La nueva Posicion del elemento en relacioncion de
+    un elemento con su posicion normal*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    /*Hace que un elemento se coloque
+    respecto a su contenedor posicionado
+    mas cercano*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    /*Ayuda a colocar las caja como si
+    fueran celdas de tablas*/
+    display: flex;
+    align-items: center;
+    /*Distribuye el espacion entre los
+    objetos y su alrededor*/
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.descripcion{
+	height: 200px;
+    width: 600px;
+	background:#FDFEFE;
+	border:1px solid #E74C3C;
+	margin: 5px;
+	color:black;
+	text-align:center;
+}
